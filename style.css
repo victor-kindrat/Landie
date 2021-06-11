@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+header {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav {
+    width: 20%;
+}
+
+ul {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul li a {
+    text-decoration: none;
+    text-align: center;
+    color: #1E2778;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+
+.logo {
+    color: #1E2778;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 900;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+.button {
+    width: 20%;
+}
+
+.btn {
+    background-color: #1E2778;
+    height: 40px;
+    width: 100px;
+    color: #fff;
+    text-decoration: none;
+    padding: 9px 60px;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: #0E144A;
+    transition: 0.3s;
+}
+
+/*FIRST SCREEN*/
+
+.first {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/bg-1_2.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 0 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+h1 {
+    color: #0E144A;
+    font-family: Trebuchet MS, sans-serif;
+    margin: 60px 0;
+}
+
+.text {
+    color: #2F3CB0;
+    font-family: Trebuchet MS, sans-serif;
+    margin-bottom: 60px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.btn1 {
+    width: 150px;
+    height: 40px;
+    border: #0E144A solid 2px;
+    text-decoration: none;
+    padding: 9px 60px;
+    margin-right: 40px;
+    color: #0E144A;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+.box {
+    width: 70%;
+}
+
+/*SECOND SCREEN*/
+
+.second {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.right {
+    height: 100%;
+    width: 50%;
+    background-image: url(./img/bg-2.png);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 5;
+    background-color: #fff;
+}
+
+.left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 100px;
+    z-index: 5;
+    background-color: #fff
+}
+
+.minis {
+    width: 100%;
+    display: flex;
+}
+
+.mini {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+h4 {
+    font-family: Trebuchet MS, sans-serif;
+}
+
+/*    third screen*/
+
+.third,
+.fourth {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    z-index: 5;
+    background-color: #fff;
+}
+
+.third .left {
+    padding-left: 0;
+    padding-right: 100px;
+    z-index: 5;
+}
+
+.fourth .left {
+    padding-left: 0;
+    padding-right: 100px;
+    z-index: 5;
+    border-bottom-right-radius: 40%;
+}
+
+.fourth .right {
+    border-bottom-left-radius: 40%;
+}
+
+.left .btn {
+    padding: 7px 30px;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+}
+
+.thirdFourth {
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    z-index: 5;
+    background-color: #fff;
+}
+
+/*FIFTH SCREEN*/
+
+.fifth {
+    z-index: 1;
+    height: 150vh;
+    width: 100%;
+    padding: 0 30%;
+    position: relative;
+    margin-top: -50vh;
+    background-color: #C1C1C1;
+    padding-top: 60vh;
+     !important display: flex;
+    flex-direction: column;
+    align-items: center;
+     !important justify-content: space-around;
+    text-align: center;
+}
+
+.text1 {
+    color: #0E144A;
+    font-family: Trebuchet MS, sans-serif;
+    margin-bottom: 60px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.fifth h1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+/*FOOTER*/
+
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #AFAFAF;
+}
+
+.copy {
+    width: 20%;
+    text-align: center;
+    color: #585858;
+}
+
+footer nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav ul {
+    width: 30%;
+}
+
+.socialMedia {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.socialMedia img {
+    height: 30px;
+    width: 30px;
+}
+
+@media screen and (max-width:1100px) {
+    nav {
+        width: 20%;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .button {
+        width: 20%;
+    }
+
+    .btn {
+        height: 35px;
+        width: 60px;
+        padding: 9px 10px;
+        margin: 5px;
+    }
+
+    /*FIRST SCREEN*/
+
+    .first {
+        height: 100vh;
+        width: 100%;
+        background-size: contain;
+        background-position: right;
+        padding: 0 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    h1 {
+        margin: 30px 0;
+    }
+
+    .text {
+        margin-bottom: 30px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .btn1 {
+        width: 75px;
+        height: 20px;
+        padding: 9px 10px;
+        margin-right: 0;
+    }
+
+    .box {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .first {
+        padding: 0 20px;
+        background-size: 70%;
+    }
+
+    .second {
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+    }
+
+    .third .left {
+        padding-left: 0;
+        padding-right: 50px;
+        z-index: 5;
+    }
+
+    .left {
+        padding: 0 20px;
+        width: 60%;
+    }
+    
+    .right {
+        width: 40%;
+        background-size: 100%;
+    }
+    
+    .button {
+        width: 30%;
+    }
+
+    nav ul {
+        width: 60%;
+        justify-content: space-between;
+    }
+
+    nav ul li a {
+        font-size: 10px;
+        margin: 5px;
+    }
+    
+    .socialMedia {
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header {
+        justify-content: flex-end;
+    }
+    
+    .logo {
+        width: 45%;
+    }
+    
+    .third .left {
+        padding-right: 50px;
+        padding-left: 15px;
+    }
+    
+    .fourth .left {
+        padding-right: 50px;
+        padding-left: 15px;
+    }
+}
